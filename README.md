@@ -24,14 +24,8 @@ python3 minesweeper_agent.py --play human --height 8 --width 8 --mines 8
 AI revealed (6, 2) and hit a mine. Game over.
 Result: won=False, moves=1, time=0.00s, flags=1
 Final board (revealed states and flags):
- . . . . . . . .
- . . M . . . . .
- . . . . . . M .
- . . . M . . . .
- . . M . M . . .
- . . M . . . . .
- . . X . . . . .
- . . . . . . . M
+<img width="155" height="177" alt="Screenshot 2025-09-24 211106" src="https://github.com/user-attachments/assets/d09de4d6-1684-4c30-8286-9f5e83069397" />
+
 
 ## Notes & Future improvements
 - The AI uses basic logical inference and subset reasoning. Adding probabilistic reasoning and improved heuristics can raise success rates.
